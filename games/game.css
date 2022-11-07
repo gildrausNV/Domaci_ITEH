@@ -1,0 +1,50 @@
+body {
+    background-image: url(./../images/cloud.png);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+table tr td {
+    width: 33%;
+    height: 33%;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.start {
+    margin-left: 44%;
+}
+
+.highlight {
+    background-color: blue;
+}
+
+.field {
+    cursor:pointer
+}
+
+.error {
+    background-color: red;
+}
+
+.correct {
+    background-color: green;
+}

@@ -1,0 +1,32 @@
+body {
+    background-image: url(./images/cloud.png);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 50%;
+    height: 550px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
