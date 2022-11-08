@@ -2,7 +2,7 @@ function login() {
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
     $.ajax({
-        url: '../handler/login.php',
+        url: 'handler/login.php',
         type: 'get',
         data: { 
             "username": username, 
@@ -17,7 +17,7 @@ function login() {
             }
         },
         error: function(xhr){
-            alert("GRESKA" + xhr);
+            alert("GRESKA" + xhr.status);
         }
      });
 }
