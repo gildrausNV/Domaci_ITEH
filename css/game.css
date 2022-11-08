@@ -10,6 +10,13 @@ body {
     align-items: center;
 }
 
+.guide {
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.8;
+}
+
 .game {
     width: 500px;
     height: 500px;
@@ -47,4 +54,25 @@ table tr td {
 
 .correct {
     background-color: green;
+}
+
+.results {
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results tr td {
+    width: 100px;
+    height: 75px;
+    background-color: black;
+    opacity: 0.8;
+    border: 2px solid white;
+    text-align: center;
 }
